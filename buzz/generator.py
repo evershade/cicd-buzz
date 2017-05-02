@@ -14,6 +14,12 @@ def sample(l, n = 1):
     return result
 
 def generate_buzz():
+    #Wow, this is some smart stuff
+    #Going to make some comments about useless things
+    #Like this line
+    #Totally useless
+    #What?
+    #Monoglouge!!!
     buzz_terms = sample(buzz, 2)
     phrase = ' '.join([sample(adjectives), buzz_terms[0], sample(adverbs),
         sample(verbs), buzz_terms[1]])
